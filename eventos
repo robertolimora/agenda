@@ -1,0 +1,9 @@
+CREATE TABLE eventos (
+  id VARCHAR(50) PRIMARY KEY,
+  nome VARCHAR(100),
+  especialidade VARCHAR(100),
+  data DATE,
+  horario VARCHAR(50),
+  preco VARCHAR(20),
+  cor VARCHAR(20)
+);
